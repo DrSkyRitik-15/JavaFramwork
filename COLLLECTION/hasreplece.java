@@ -13,5 +13,7 @@ public class hasreplece {
         System.out.println("Replace the value => ");
         map.replace(1, "AAaA");
         System.out.println(map);
+        System.out.print("Size () => ");
+        System.out.println(map.size());
     }
 }
