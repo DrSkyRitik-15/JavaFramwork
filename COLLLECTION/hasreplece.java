@@ -25,5 +25,13 @@ public class hasreplece {
         System.out.print("remove() => ");
         System.out.println(map.remove(1));
         System.out.println(map);
+
+
+        for(Map.Entry<Integer,String> e:map.entrySet())
+        {
+            System.out.print("Key: "+e.getKey());
+            System.out.println(" Value: "+e.getValue());
+        }
+       
     }
 }
