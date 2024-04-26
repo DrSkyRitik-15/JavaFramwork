@@ -32,6 +32,8 @@ public class hasreplece {
             System.out.print("Key: "+e.getKey());
             System.out.println(" Value: "+e.getValue());
         }
+        System.out.println(map.containsKey(2));
+        System.out.println(map.containsValue("DD"));
        
     }
 }
