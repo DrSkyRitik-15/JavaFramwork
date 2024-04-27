@@ -15,7 +15,7 @@ class print<T> {
 public class A02 {
     public static void main(String[] args) {
         System.out.println("===============================");
-        ;
+        
         print<Integer> obj = new print<>();
         obj.fun(10);
         System.out.println("===============================");
